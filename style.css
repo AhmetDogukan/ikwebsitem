@@ -1,0 +1,815 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ANASAYFA START */
+/* Header Start */
+
+body{
+    background-color: antiquewhite;
+    font-family: "Raleway", sans-serif;
+}
+
+hr{
+    width: 90%;
+    margin: 60px auto;
+}
+
+.header{
+    width: 100%;
+    padding-inline: 120px;
+}
+
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 90px;
+    margin: 50px auto;
+    padding: 60px;
+    border: 1px solid whitesmoke;
+    background-color: rgb(71, 71, 132);
+    border-radius: 30px;
+}
+
+.container a{
+    margin: 0 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.container a:hover , .container a.active{
+    cursor: pointer;    
+    border-bottom: 3px solid red;
+    transition: ease .3s;
+}
+
+.header .whatsapp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;    
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+
+.header .whatsapp a i{
+    font-size: 50px;
+}
+
+/* Header End */
+
+/* Home Start */
+
+/* About Start */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:90px 60px;
+}
+
+.about .about_yazi h2{
+    text-align: center;
+    font-weight: 600;
+}
+
+.about img{
+    margin-inline: 60px;
+}
+
+.about p{
+    text-align: justify;
+    font-weight: 500;
+}
+
+/* About End */
+
+/* Branch Start */
+
+    .branch{
+        margin: auto;
+    }
+    .branch h2{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 32px;
+    }
+
+    .branch_image{
+        margin-top: 30px;
+        margin-inline: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .branch_image .image{
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    .branch_image .image h3{
+        text-align: center;
+        color: black;
+        padding: 10px 0;
+    }
+
+    .image img{
+        width: 240px;
+        height: 240px;
+    }
+
+/* Branch End */
+
+/* Rezervasyon Start */
+
+.contact_box input, .contact_box textarea, .contact_box .btn{
+    display: block;
+    margin: 30px auto;
+    padding: 5px;
+    width: 400px;
+    outline: 2px solid black;
+    border-radius: 20px;
+}
+
+.contact_box input:hover, .contact_box textarea:hover{
+    display: block;
+    margin:30px auto;
+    padding: 5px;
+    width: 400px;
+    outline: 4px solid grey;
+    border-radius: 20px;
+}
+
+.contact_box .btn:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color: #571919;
+    outline: 4px solid greenyellow;
+    transition: ease-in-out 0.4s;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* Rezervasyon End */
+.review .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.review .box-container .box {
+  border: var(--border);
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #fff;
+  border-radius: 3rem;
+}
+
+.review .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  padding: 2rem 0;
+}
+
+.review .box-container .box .user {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review .box-container .box h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+.review .box-container .box .stars i {
+  font-size: 1.5rem;
+  color: gold;
+}
+
+/* Review Start */
+.review .box-container {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 60px;
+  }
+
+  .review h1{
+    margin: 30px;
+    text-align: center;
+    font-size: 32px;
+  }
+  
+  .review .box-container .box {
+    width: 25%;
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 15px;
+  }
+  
+  .review .box-container .box p {
+    font-size: 15px;
+    line-height: 1.8;
+    padding: 20px 0;
+  }
+  
+  .review .box-container .box .user {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+  }
+  
+  .review .box-container .box h3 {
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  
+  .review .box-container .box .stars i {
+    font-size: 15px;
+    color: gold;
+  }
+/* Review end */
+/* Footer Start */
+.footer{
+    background-color: #0e0e0e;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.footer img{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin:30px auto;
+    padding: 30px;
+}
+
+
+.footer .share {
+    padding: 20px 0;
+}
+  
+.footer .share a {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    border: white;
+    border-radius: 50%;
+    margin: 3px;
+}
+  
+.footer .share a:hover {
+    background-color: #0e0e0e;
+}
+
+/* Footer End */
+    
+/* Home End */
+
+/* ANASAYFA END */
+
+/* Menü Start */
+
+.main h2{
+    font-size: 32px;
+    margin:  40px 0;
+    text-align: center;
+}
+
+.main .section_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main .section_menu .menu{
+    width: 300px;
+    margin:30px auto;
+    text-align: center;
+    background-color: white;
+    border:5px solid white;    
+    border-radius: 10px;
+}
+
+
+.main .section_menu .menu:hover{
+    transform: translateY(-20px) translateX(-20px);
+    transition: ease 0.5s;
+}
+
+
+.section_menu .menu img{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.section_menu .menu h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section_menu .menu .price{
+    color: grey;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.section_menu .menu a i{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.main .btn{
+    display: block;
+    margin:30px auto;
+    padding: 5px;
+    width: 400px;
+    outline: 2px solid black;
+    border-radius: 20px;
+}
+
+
+.main .btn:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color: #571919;
+    outline: 4px solid greenyellow;
+    transition: ease-in-out 0.4s;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Menü End */
+
+/* İletisim Start */
+
+.map_container{
+    margin: auto;
+}
+
+.contact_container{
+    margin:60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_container .map_icon,.contact_container .contact_icon{
+    margin-bottom: 30px;    
+}
+
+.contact_container .map_icon i, .contact_container .contact_icon i,.contact_container .contact_icon i{   
+    font-size: 32px;
+    color: rgb(73, 73, 133);
+    margin: 10px 200px;
+}
+
+.contact_container .map_icon h3{
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.contact_container .contact_icon a{
+    line-height: 60px;
+    margin: 15px 160px;
+}
+
+.contact_container .mail_icon a{
+    line-height: 60px;
+    margin: 15px 120px;
+}
+
+.contact_container .map_icon .adres{
+    margin:10px;
+    line-height: 30px;
+}
+
+
+
+.contact_container .map{
+    width: 50%;
+}
+/* İletisim End */
+
+/* Log in Start */
+
+.wrapper
+{
+    width: 40%;
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height: 400px;
+    background:rgba(0,0,0,.7);
+    padding:30px;
+    box-shadow:0 15px 25px rgba(0,0,0,.7);
+    border-radius:20px;    
+}
+.wrapper h2{
+    margin-bottom:30px;
+    padding:0;
+    color:aliceblue;
+    text-align:center;
+}
+
+.wrapper .inputBox input{
+    width:100%;
+    padding:10px 0;
+    font-size:16px;
+    color:#fff;
+    margin-bottom:0px;
+    border-bottom:1px solid #fff;
+    background-color:whitesmoke;
+}
+
+.wrapper form input{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background-color: aqua;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30px auto;
+}
+
+.wrapper form label{
+    color: white;
+    font-size: 14px;
+    line-height: 8px;
+}
+
+
+/* login End */
+
+/* Üye Ol Start */
+.kayitFormu{
+                
+    border-radius:10px;
+    background:#ffffff;
+    width:480px;
+    margin:auto;
+    margin-top:20px;
+    padding:15px;
+    text-align:center;
+}
+input, button
+{
+    border:1px solid black;
+    border-radius:5px;    
+    width:360px;
+    height:50px;
+    margin:20px 0px 20px 0px;
+    background:whitesmoke;
+    padding-left:15px;
+    font-style:italic;
+    
+}
+
+.btn{
+    background:#76b852;
+    color:white;
+}
+h3{
+    color:#333;
+    text-transform:uppercase;
+    font-size:20px;
+}
+
+.kayitFormu .btn{
+    display: block;
+    margin:30px auto;
+    padding: 5px;
+    width: 400px;
+    outline: 2px solid black;
+    border-radius: 20px;
+}
+
+
+.kayitFormu .btn:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color: #571919;
+    outline: 4px solid greenyellow;
+    transition: ease-in-out 0.4s;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.kayitFormu input, .kayitFormu textarea, .kayitFormu .btn{
+    display: block;
+    margin:30px auto;
+    padding: 5px;
+    width: 400px;
+    outline: 2px solid black;
+    border-radius: 20px;
+}
+
+.kayitFormu input:hover, .kayitFormu textarea:hover{
+    display: block;
+    margin:30px auto;
+    padding: 5px;
+    width: 400px;
+    outline: 4px solid grey;
+    border-radius: 20px;
+}
+
+.kayitFormu .btn:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color: #571919;
+    outline: 4px solid greenyellow;
+    transition: ease-in-out 0.4s;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Üye Ol End */
+
+
+/* RESPONSIVE START */
+
+@media screen and (max-width:1200px) {  
+     /*Anasayfa responsive start  */
+    .header .container{
+        width: 50%;
+        height: 50%;
+        margin:auto;
+        padding-inline: 20px;
+    }
+    .header .container a{
+        display: block;
+        padding: 10px 0;
+    }
+
+    .review .box-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .review .box-container .box{
+        margin: auto;
+        height: 300px;
+    }
+
+    /* Anasayfa responsive end */
+
+    /* Menü responsive start */
+    .main .section_menu{
+        display: flex;
+        flex-wrap: wrap;
+    }   
+
+    /* Menü responsive end */
+
+    /* İletişim responsive start */
+
+    .map_container .map{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* İletişim responsive end */
+
+
+}
+
+@media screen and (max-width:992px){
+    /*Anasayfa responsive start  */
+    .header .container{
+        width: 75%;
+        margin:auto;
+        padding-inline: 20px;
+    }
+    .header .container a{
+        display: block;
+        padding: 10px 0;
+    }
+
+    .about{
+        display: flex;
+        margin:30px auto;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .about img{
+        margin-bottom: 40px;
+    }
+
+    .contact_box{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin:50px auto;
+    }
+
+    .contact_box form{
+        margin: 160px auto;
+        transform: scale(1.4);
+    }
+
+    .review .box-container .box{
+        width: 75%;
+    }
+
+    .wrapper{
+        margin-top: 160px;
+        width: 75%;
+    }
+
+    /* Anasayfa responsive end  */
+
+    /* İletişim responsive start */
+
+    .map_container .contact_container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map_container .map{
+        margin: 30px auto;
+        transform: scaleX(1.4)
+    }
+
+
+    
+    /* İletişim responsive end */
+
+    /* Üye Ol Start */
+    .kayitFormu{
+        width: 50%;
+    }
+
+    /* Üye Ol End */
+}
+
+@media screen and (max-width:768px){
+    /*Anasayfa responsive start  */
+    .header{
+        height: 50vh;
+    }
+    .header .container{
+        width: 75%;
+        height: 50vh;
+        margin:auto;
+        padding-inline: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about{
+        margin-top: 60px;
+        width: 80%;
+    }
+
+    .contact_box input, .contact_box textarea, .contact_box .btn{
+        margin: 30px auto;
+        width: 90%;
+
+    }
+
+    .review .box-container .box{
+        width: 90%;
+    }
+    
+
+    .branch{
+        margin: auto;
+    }
+
+    .wrapper{
+        margin-top: 250px;
+    }
+
+    .kayitFormu{
+        width: 90%;
+    }
+
+    /*Anasayfa responsive end  */
+
+    /* İletişim responsive start */
+
+    .map_container .map{
+        margin: 30px auto;
+        width: 80%;
+        transform: scaleX(1.1);
+    }
+
+    /* İletişim responsive end */
+
+    /* Giriş Yap Start */
+
+    .wrapper{
+        width: 75%;
+        margin-top: 100px;
+    }
+
+    .wrapper .login{
+        width: 100%;
+    }
+
+    /* Giriş Yap end */
+
+    .kayitFormu input, .kayitFormu .btn{
+        width: 90%;
+    }
+
+@media screen and (max-width:576px){
+    /*Anasayfa responsive start  */
+
+.header .container{
+    width: 100%;
+    height: 75%;
+    margin:auto;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.branch .branch_image{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.branch .branch_image .image{
+    width: 90%;
+}
+
+.branch .branch_image .image img{
+    width: 100%;
+}
+
+
+.branch .branch_image .image{
+    margin-bottom: 30px;
+}
+
+.menu{
+    margin: 0; 
+    transform: scaleX(1.2);
+}
+
+.contact_box input, .contact_box textarea, .contact_box .btn{
+    width: 90%;
+}
+
+/*Anasayfa responsive end  */
+
+/* İletişim responsive start */
+
+.map_container .map{
+    margin: auto;  
+    width: 80%;      
+}
+
+/* İletişim responsive end */
+
+/* Üye Ol responsive Start */
+
+.wrapper{
+    width: 75%;
+    margin-top: 100px;
+}
+
+/* Üye Ol responsive end */
+
+}
+
+}
+   
+    
+
+
+
+ 
